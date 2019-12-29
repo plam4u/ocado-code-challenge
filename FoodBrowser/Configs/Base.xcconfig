@@ -1,0 +1,18 @@
+//
+//  Base.xcconfig
+//  FoodBrowser
+//
+//  Created by Plamen on 12/28/19.
+//  Copyright © 2019 Pixel Generator. All rights reserved.
+//
+
+// Shared Build Settings
+// Useful when more targets (modules) are added.
+// Gives visibility to what is important and customized.
+
+IPHONEOS_DEPLOYMENT_TARGET = 11.0
+SWIFT_VERSION = 5.0
+TARGETED_DEVICE_FAMILY = 1 // iPhone only
+INFOPLIST_FILE = FoodBrowser/Info.plist
+PRODUCT_BUNDLE_IDENTIFIER = me.plamenandreev.FoodBrowser
+PRODUCT_NAME = $(TARGET_NAME)
